@@ -10,6 +10,7 @@ public class Player : MonoBehaviour
     private float targetMoveSpeed; 
     public float jumpForce = 5f;
     public bool isGrounded = false;
+
     public enum State
     {
         Idle        = 0,
